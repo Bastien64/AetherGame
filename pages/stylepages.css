@@ -137,6 +137,15 @@
         margin-bottom: 5%;
     }
     
+    .boutondown {
+        width: auto;
+        height: auto;
+        font-size: 20px;
+        background-color: black;
+        padding: 1%;
+        text-align: start; color: rgb(255, 247, 247); font-weight: bold;
+    }
+
          /*footer*/
          footer {
             padding: 2% 2% 2% 2%;
