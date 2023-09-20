@@ -1,0 +1,174 @@
+@media only screen and (min-width: 767px) {
+
+    body {
+        width: 100%;
+    }
+    .photofemme {
+        width: 100%;
+        height: 100%;
+      }
+    
+      .custom-ml-auto {
+        margin-left: auto;
+        margin-right: 0%;
+    }
+
+    .nav-item {
+        margin-left: 50px!important;
+    }
+      #nav-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 10;
+        opacity: 0;
+        transition: opacity 2s ease-in-out;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.808);
+      }
+      .textnavbar {
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+      }
+
+      .imagetop {
+        padding-top: 10%;
+        background-color: black;
+      }
+
+      .cssimagetop {
+        max-width: 100%;
+        max-height :100%;
+      }
+
+      .active {
+        width: 150px;
+        height: auto;
+        background-color: black;
+        color: white;
+
+      }
+    
+ /*pagesection1*/
+    .pagesection1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3%;
+    }
+
+    .section1 {
+        display: flex;
+        flex: row;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+    }
+    .textsection1 {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        max-width: 25%;
+        margin-left: 5%;
+    }
+
+    .titrejeu {
+        width: auto;
+        height: auto;
+        background-color: black;
+        padding: 2%;
+        text-align: start; color: rgb(255, 247, 247); font-size: 30px; font-weight: bold;
+    }
+
+    .imagemilieu {
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        background-color: black;
+    }
+    .cssimagemilieu {
+        align-items: center;
+        padding: 5%;
+    }
+
+    /*section2*/
+
+        .pagesection2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3%;
+    }
+
+    .section2 {
+        display: flex;
+        flex: row-reverse;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+    }
+    .textsection2 {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        max-width: 25%;
+        margin-left: 5%;
+    }
+
+    /*section3*/
+    .section3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3%;
+        margin-bottom: 5%;
+    }
+    
+         /*footer*/
+         footer {
+            padding: 2% 2% 2% 2%;
+            display: flex;
+            flex-direction: row;
+            color: white;
+            background-color: black;
+            justify-content: space-around;
+        }
+        
+        .reseaux {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .logo {
+            margin: 5%;
+            max-width: 50px;
+            max-height: 50px;
+        }
+        
+        .infolegale {
+            width: 55%;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        .infolegale p {
+            font-size: small;
+            margin-left: 2%;
+        }
+    }

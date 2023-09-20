@@ -10,7 +10,11 @@
     
       .custom-ml-auto {
         margin-left: auto;
-        margin-right: 10%;
+        margin-right: 0%;
+    }
+
+    .nav-item {
+        margin-left: 50px!important;
     }
       #nav-section {
         display: flex;
@@ -24,10 +28,8 @@
         opacity: 0;
         transition: opacity 2s ease-in-out;
         box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.808);
-    
       }
       .textnavbar {
-
         background-color: #ffffff;
         color: rgb(0, 0, 0);
         font-weight: bold;
