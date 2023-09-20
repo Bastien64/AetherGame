@@ -5,3 +5,4 @@ window.onload = function() {
   };
 
 const carouselSection = document.getElementById("carousel-section");
+
