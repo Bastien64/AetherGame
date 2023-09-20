@@ -1,0 +1,260 @@
+@media only screen and (min-width: 767px) {
+
+    body {
+        width: 100%;
+    }
+    .photofemme {
+        width: 100%;
+        height: 100%;
+      }
+    
+      .custom-ml-auto {
+        margin-left: auto;
+        margin-right: 10%;
+    }
+      #nav-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 10;
+        opacity: 0;
+        transition: opacity 2s ease-in-out;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.808);
+    
+      }
+      .textnavbar {
+
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+      }
+
+      .carousel {
+
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        margin-top: 5%;
+      }
+
+      .division {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+      }
+      .hexagone {
+        width: 57px;
+        height: auto;
+        margin-top: 3%;
+        margin-left: 1%;
+        margin-bottom: 3%;
+      }
+
+ /*section1*/
+   .section1 {
+    padding: 5% 5% 5% 5%;
+
+    width: 100%;
+    height: 75%;
+    background-color: black;
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+   }
+          
+    .barresection1 {
+        width: 5px;
+        height: 300px;
+        background-color: white;
+        margin-top: 10%;
+    } 
+
+    .imagesection1 {
+        max-width: 60%;
+        height: auto;
+    }
+
+    .textsection1 {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-content: center;
+        
+        max-width: 25%;
+        margin-left: 5%;
+  
+        transition: opacity 3s ease, transform 3s ease; 
+    }
+    .animate-left {
+        opacity: 0;
+        transform: translateX(-100px);
+        transition: opacity 3s ease, transform 3s ease;
+    }
+    
+    .section1.in-view .animate-left {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    
+     /*section2*/
+   .section2 {
+    padding: 0% 5% 5% 5%;
+
+    width: 100%;
+    height: 75%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row-reverse ;
+    justify-content: space-between;
+   }
+          
+    .barresection2 {
+        width: 5px;
+        height: 300px;
+        background-color: rgb(0, 0, 0);
+        margin-top: 10%;
+    } 
+
+    .imagesection2 {
+        max-width: 60%;
+        height: auto;
+    }
+
+    .textsection2 {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        color: black;
+        max-width: 25%;
+        margin-left: 5%;
+    }
+    .animate-right {
+        opacity: 0;
+        transform: translateX(100px); /* Ajustez la valeur pour que l'animation vienne de la droite */
+        transition: opacity 3s ease, transform 3s ease;
+    }
+    
+    .in-view .animate-right {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    
+    
+    /*section3*/
+
+     .section3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+     }
+
+    .barresection3 {
+        width: 75%;
+        height: 5px;
+        background-color: rgb(0, 0, 0);
+        margin-bottom: 2%;
+        margin-top: 2%;
+
+    } 
+
+    /*section4*/
+    .section4 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+     }
+
+         
+    .section4 div {
+        border-color: white;
+        display: flex;
+        flex-direction: column  ;
+
+
+    }
+
+    .card-title {
+        width: 150px;
+        height: 50px;
+        background-color: black;
+        color: white!important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .boutonsection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .boutoncontactsection4{
+        width: 250px;
+        height: 50px;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 4%;
+        margin-top: 2%;
+        box-shadow: 1px 1px 1px 1px black;
+
+    }
+    .custom-card-body {
+        text-align: left!important;
+    }
+     
+     /*footer*/
+     footer {
+        padding: 2% 2% 2% 2%;
+        display: flex;
+        flex-direction: row;
+        color: white;
+        background-color: black;
+        justify-content: space-around;
+    }
+    
+    .reseaux {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .logo {
+        margin: 5%;
+        max-width: 50px;
+        max-height: 50px;
+    }
+    
+    .infolegale {
+        width: 55%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .infolegale p {
+        font-size: small;
+        margin-left: 2%;
+    }
+}
