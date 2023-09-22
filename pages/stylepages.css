@@ -113,7 +113,7 @@
 
     .section2 {
         display: flex;
-        flex: row-reverse;
+        flex-direction: row-reverse;
         align-items: center;
         justify-content: center;
         justify-content: space-around;
